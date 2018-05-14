@@ -31,6 +31,7 @@ public class solrTest {
 			doc.addField("name", "solr的标题："+i);
 			doc.addField("content", "solr的内容==="+i);
 			solrServer.add(doc);
+			System.out.println("111");
 		}
 		solrServer.commit();
 	}
