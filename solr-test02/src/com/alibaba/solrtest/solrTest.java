@@ -32,7 +32,7 @@ public class solrTest {
 			doc.addField("content", "solr的内容==="+i);
 			solrServer.add(doc);
 			System.out.println("111");
-			System.out.println("2222");
+			System.out.println("2222"); 
 		}
 		solrServer.commit();
 	}
